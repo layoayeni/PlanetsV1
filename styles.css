@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*planets container*/
+.planets-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Anything above 50% to a 100% is a circle*/
+    background-color: yellow;
+    transform: scaleX(5);
+}
+
+.planet {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transform: scaleX(0.2);
+}
+
+#planet-1 {
+    background-color: red;
+}
+
+#planet-2 {
+    background-color: blue;
+}
+
+#planet-3 {
+    background-color: green;
+}
+
+#planet-4 {
+    background-color: orange;
+}
